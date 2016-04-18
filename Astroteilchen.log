@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2016.4.13)  15 APR 2016 17:38
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2016.4.13)  18 APR 2016 16:30
  restricted \write18 enabled.
 **Astroteilchen.tex
 (./Astroteilchen.tex
@@ -338,7 +338,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.113 seconds)
+luaotfload | main : initialization completed in 0.077 seconds)
 Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX.
 (/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-luatex.
 sty
@@ -1567,9 +1567,12 @@ Package biblatex Info: ... file 'german.lbx' found.
 (/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/biblatex/lbx/german.lbx
 File: german.lbx 2016/03/03 v3.3 biblatex localization (PK/JW/AB)
 )
-No file Astroteilchen.aux.
-
+(./Astroteilchen.aux
+luatex-hyphen: loading patterns and exceptions for: german (\language4)
+luatex-hyphen: info: no hyphenation exceptions for this language
+Language ngerman already loaded; id is 8)
 \openout1 = Astroteilchen.aux
+
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
@@ -1586,6 +1589,7 @@ LaTeX Font Info:    Checking defaults for EU2/lmr/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 11.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 11.
+
 (/home/kevin/.local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
@@ -1770,36 +1774,27 @@ LaTeX Warning: No \author given.
 [1
 
 {/home/kevin/.local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
- (./teil1.tex)
+ (./teil1.tex
+Overfull \hbox (1.70262pt too wide) in paragraph at lines 27--29
+[][]\EU2/lmr/m/n/10.95 Infrarot-, Gamma-, Rönt-gen-be-reich wird über dem Erd
+-bo-den ab-sor-biert $[][]\OMS/cmsy/m/n/10.95 !$ \EU2/lmr/m/n/10.95 versch.
+ []
+
+[2
+
+])
 
 LaTeX Warning: Empty bibliography on input line 23.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 25.
-[2
-
-]
+[3]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 25.
  (./Astroteilchen.aux
-luatex-hyphen: loading patterns and exceptions for: german (\language4)
-luatex-hyphen: info: no hyphenation exceptions for this language
 Language ngerman already loaded; id is 8)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 25.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 25.
-
-
-Package rerunfilecheck Warning: File `Astroteilchen.aux' has changed. Rerun.
-
-Package rerunfilecheck Info: Checksums for `Astroteilchen.aux':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  E23C1D2F4AC918E3160A8BEB26E02DC6;2957.
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                Astroteilchen
-(biblatex)                and rerun LaTeX afterwards.
-
+Package rerunfilecheck Info: File `Astroteilchen.aux' has not changed.
+(rerunfilecheck)             Checksum: E23C1D2F4AC918E3160A8BEB26E02DC6;2957.
 Package logreq Info: Writing requests to 'Astroteilchen.run.xml'.
 
 \openout1 = Astroteilchen.run.xml
@@ -1807,27 +1802,29 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 25.
 )
 
 Here is how much of LuaTeX's memory you used:
- 38523 strings out of 495003
+ 38529 strings out of 495003
  100000,1373583 words of node,token memory allocated
- 418 words of node memory still in use:
+ 420 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 5 attribute, 59 glue_spec, 5 attrib
 ute_list, 1 write nodes
-   avail lists: 2:265,3:61,4:371,5:93,6:974,7:8,8:4,9:99,10:149
+   avail lists: 2:449,3:103,4:633,5:158,6:1676,7:8,8:4,9:171,10:253
  41119 multiletter control sequences out of 65536+600000
  82 fonts using 6228655 bytes
- 71i,6n,100p,962b,859s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 71i,7n,100p,962b,859s stack positions out of 5000i,500n,10000p,200000b,100000s
 </home/kevin/.local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmroman10-b
 old.otf></home/kevin/.local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmr
 oman10-regular.otf></home/kevin/.local/texlive/2015/texmf-dist/fonts/opentype/pu
 blic/lm/lmroman12-regular.otf></home/kevin/.local/texlive/2015/texmf-dist/fonts/
 opentype/public/lm/lmsans10-bold.otf></home/kevin/.local/texlive/2015/texmf-dist
 /fonts/opentype/public/lm/lmroman12-bold.otf><</home/kevin/.local/texlive/2015/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><</home/kevin/.local/texlive/
-2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Astroteilchen.pdf (2 pages, 37798 bytes).
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><</home/kevin/.local/texlive
+/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><</home/kevin/.local/t
+exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><</home/kevin/.lo
+cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Astroteilchen.pdf (3 pages, 58527 bytes).
 
-PDF statistics: 73 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
- 6 named destinations out of 1000 (max. 131072)
+PDF statistics: 85 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
+ 7 named destinations out of 1000 (max. 131072)
  25 words of extra memory for PDF output out of 10000 (max. 10000000)
 
